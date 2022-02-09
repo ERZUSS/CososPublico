@@ -1,0 +1,33 @@
+.isaac{
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    z-index: 100;
+    pointer-events: none;
+}
+
+/* .isaac2{
+    position: absolute;
+    left: 200px;
+    top: 200px;
+} */
+
+.clase1{
+    position: relative;
+    left: 25%;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    z-index: 50;
+}
+
+.clase2{
+    position: relative;
+    left: 75%;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    z-index: 50;
+}
+
+#Fondo { z-index: 0; }
