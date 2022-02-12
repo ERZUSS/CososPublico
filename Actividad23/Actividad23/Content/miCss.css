@@ -1,0 +1,155 @@
+﻿.login, .registrar {
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 50%;
+    text-align: center;
+}
+
+.btnLogin, .btnAddPersonaje {
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.inputRegistro {
+    min-width: 200px;
+    max-width: 600px;
+}
+
+.btn-primary {
+    background-color: rgba(53,0, 147, 0) !important;
+    border-color: #6c757d !important;
+    margin: 10px !important;
+}
+
+    .btn-primary:hover {
+        color: #fff !important;
+        background-color: #6c757d !important;
+        border-color: #6c757d !important;
+    }
+
+.tc {
+    text-align: center;
+}
+.tv{
+    color: green!important;
+}
+
+.darkTheme {
+    background-color: #262626;
+    color: #9e9ea8;
+    min-height: 100vh;
+}
+
+    .darkTheme input, .darkTheme span {
+        background-color: #3e3e3e;
+        color: #9e9ea8 !important;
+    }
+
+#MainContent_lValidacion, #MainContent_lValidacionL {
+    background-color: transparent !important;
+    color: red !important;
+}
+#MainContent_lValidacionCorrecto, #MainContent_lValidacionLCorrecto {
+    background-color: transparent !important;
+    color: green !important;
+}
+
+.carta img {
+    border-radius: 11px;
+}
+.cronometro {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 44px;
+}
+.estadisticas {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.modal-dialog-center {
+    margin-top: 20%;
+}
+.row.estadisticas div {
+    text-align: center;
+}
+.btnReiniciar {
+    display: inline-block;
+}
+.divTablaPuntuacion {
+    width: 75vh;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(../Imagenes/tele.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75vh;
+    position: relative;
+    top: 6vh;
+}
+.divHijoTablaPuntuacion {
+    padding: 10px;
+    position: relative;
+    top: 36vh;
+    left: 1vh;
+    width: 41vh;
+    margin: 0 auto;
+    height: 21vh;
+    overflow-y: scroll;
+}
+.cerrarSesion {
+    position: absolute;
+    right: 2vh;
+    top: 1vh;
+    z-index: 9999;
+    background-color: transparent!important;
+}
+.cerrarSesion:hover{ 
+    text-decoration: none;
+}
+.ocultarMenu {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 2vh;
+    top: 1vh;
+    z-index: 9999;
+    background-image: url(../Imagenes/menu.png);
+    filter: invert(1);
+    cursor: pointer;
+}
+.irAtras {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 11vh;
+    top: 1vh;
+    z-index: 9999;
+    background-image: url(../Imagenes/flechaAtras.png);
+    cursor: pointer;
+}
+#divMenuOculto{
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #BFBFBF;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #808080;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #404040;
+}
+
