@@ -39,9 +39,11 @@
 }
 
 .darkTheme {
-    background-color: #262626;
+    /*background-color: #262626;*/
+    background-image: url(../Imagenes/fondoJugeuito.jpg);
     color: #9e9ea8;
     min-height: 100vh;
+    overflow: hidden;
 }
 
     .darkTheme input, .darkTheme span {
@@ -127,11 +129,12 @@
     position: absolute;
     width: 24px;
     height: 24px;
-    right: 11vh;
+    right: 12vh;
     top: 1vh;
     z-index: 9999;
     background-image: url(../Imagenes/flechaAtras.png);
     cursor: pointer;
+    filter: invert(1);
 }
 #divMenuOculto{
     display: none;

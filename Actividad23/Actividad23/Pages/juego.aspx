@@ -3,37 +3,39 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <%--<script src="../Scripts/juego.js"></script>--%>
 
-    <h1 class="text-center">Juegito cartas D:</h1>
-    <div class="cronometro">
-      <div>
-          <p id="hms">00:00:00</p>
-      </div>
-    </div>
-    <div class="row estadisticas">
-        <div class="col-md-4">
-            <div>
-                <img src="../Imagenes/usuario.png" />
-                <label id="nombreUsuario" class="prueba3" runat="server"></label>
+    <div class="containerJuego">
+        <h1 class="text-center">Juegito cartas D:</h1>
+        <div class="cronometro">
+          <div>
+              <p id="hms">00:00:00</p>
+          </div>
+        </div>
+        <div class="row estadisticas">
+            <div class="col-md-4">
+                <div>
+                    <img src="../Imagenes/usuario.png" />
+                    <label id="nombreUsuario" class="prueba3" runat="server"></label>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <p>Fallos</p>
+                <p id="fallos"></p>
+            </div>
+            <div class="col-md-4">
+                <p>Aciertos</p>
+                <p id="aciertos">&#128176; 0</p>
             </div>
         </div>
-        <div class="col-md-4">
-            <p>Fallos</p>
-            <p id="fallos"></p>
+        <div class="text-center wh100">
+            <div class="victoria"></div>
         </div>
-        <div class="col-md-4">
-            <p>Aciertos</p>
-            <p id="aciertos">&#128176; 0</p>
-        </div>
-    </div>
-    <div class="text-center wh100">
-        <div class="victoria"></div>
-    </div>
-    <div class="containerMain wh100"></div>
+        <div class="containerMain wh100"></div>
     
-    <div>
-        <asp:TextBox ID="tiempoInput" runat="server"></asp:TextBox> 
-        <asp:TextBox ID="fallosInput" runat="server"></asp:TextBox> 
-        <asp:TextBox ID="aciertosInput" runat="server"></asp:TextBox> 
+        <div>
+            <asp:TextBox ID="tiempoInput" runat="server"></asp:TextBox> 
+            <asp:TextBox ID="fallosInput" runat="server"></asp:TextBox> 
+            <asp:TextBox ID="aciertosInput" runat="server"></asp:TextBox> 
+        </div>
     </div>
     
     <script>
@@ -155,6 +157,7 @@
                             document.querySelector(".victoria").innerHTML += `<asp:Button CssClass='btn btn-primary btn-lg btn-block btnReiniciar' ID='btnPerder' runat='server' Text='Reiniciar' OnClick="crearPuntuacion"/><br>`;
                             pararCrono();
                             pintarEstadisticas();
+                            containerMain.innerHTML = "";
                         }
                     }, 1500);
                 }

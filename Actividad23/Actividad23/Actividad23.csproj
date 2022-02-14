@@ -152,7 +152,18 @@
     <Content Include="Imagenes\Cartas\28.png" />
     <Content Include="Imagenes\Cartas\29.png" />
     <Content Include="Imagenes\Cartas\3.png" />
+    <Content Include="Imagenes\Cartas\30.png" />
+    <Content Include="Imagenes\Cartas\31.png" />
+    <Content Include="Imagenes\Cartas\32.png" />
+    <Content Include="Imagenes\Cartas\33.png" />
+    <Content Include="Imagenes\Cartas\34.png" />
+    <Content Include="Imagenes\Cartas\35.png" />
+    <Content Include="Imagenes\Cartas\36.png" />
+    <Content Include="Imagenes\Cartas\37.png" />
+    <Content Include="Imagenes\Cartas\38.png" />
+    <Content Include="Imagenes\Cartas\39.png" />
     <Content Include="Imagenes\Cartas\4.png" />
+    <Content Include="Imagenes\Cartas\40.png" />
     <Content Include="Imagenes\Cartas\5.png" />
     <Content Include="Imagenes\Cartas\6.png" />
     <Content Include="Imagenes\Cartas\7.png" />
@@ -161,6 +172,7 @@
     <Content Include="Imagenes\Cartas\reversoCarta.png" />
     <Content Include="Imagenes\espadaEspiritu.png" />
     <Content Include="Imagenes\flechaAtras.png" />
+    <Content Include="Imagenes\fondoJugeuito.jpg" />
     <Content Include="Imagenes\link.png" />
     <Content Include="Imagenes\menu.png" />
     <Content Include="Imagenes\Personaje\ABA_1.png" />

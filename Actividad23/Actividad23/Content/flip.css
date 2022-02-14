@@ -3,9 +3,7 @@
     height: 100%;
 }
 
-.cReverso {
-   /* width: 241px;
-    height: 336px;*/
+.back .cReverso,.front img {
    height: 330px;
    width: 236px;
 }
@@ -14,8 +12,6 @@
     float: left;
     margin: 20px;
     perspective: 1000px;
-    /*width: 241px;
-    height: 336px;*/
     height: 330px;
     width: 236px;
 }
